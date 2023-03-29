@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "async-script-hash"
+version = "0.1.0"
+description = ""
+authors = ["A-V-tor <avtorca4@gmail.com>"]
+readme = "README.md"
+packages = [{include = "async_script_hash"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.4"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
